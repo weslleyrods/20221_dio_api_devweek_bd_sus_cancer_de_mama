@@ -1,7 +1,5 @@
 package com.dio_class.devweek.Controller;
 
-
-
 import java.util.List;
 import java.util.Optional;
 
@@ -15,7 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.dio_class.devweek.Entity.Incidencia;
 import com.dio_class.devweek.Repo.IncidenciaRepo;
+
+
 @RestController
+
 public class ControllerIncidencia {
 	
 	private final IncidenciaRepo increpository;

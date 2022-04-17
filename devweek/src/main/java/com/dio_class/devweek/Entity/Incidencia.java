@@ -19,7 +19,6 @@ public class Incidencia {
 	private Integer qnt_exames;
 	
 	public Incidencia(Long id, Integer regiao_id, Integer mes, Long faixa_id, Integer qnt_exames) {
-		super();
 		this.id = id;
 		this.regiao_id = regiao_id;
 		this.mes = mes;
@@ -64,9 +63,5 @@ public class Incidencia {
 	public void setQnt_exames(Integer qnt_exames) {
 		this.qnt_exames = qnt_exames;
 	}
-	
-	
-
-
-	
+		
 }
